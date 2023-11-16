@@ -1,0 +1,120 @@
+body {
+    position: relative;
+    font-family: 'Fira Code', monospace;
+    text-align: center;
+  }
+.perfil__foto{
+    margin: auto;
+    margin-right: auto;
+    border-radius: 100px;
+    max-width: 100%;
+}
+.perfil__nome{
+    text-align: center;
+    font-size: 80px;
+    border-bottom: 180px;
+
+}
+.texto__frase{
+    font-size: 25px;
+}
+
+
+.box {
+	width: 600px;
+	height: 400px;
+	border-radius: 5px;
+	margin: 0 auto 20px auto;
+}
+
+.box p {
+	padding-top: 300px;
+}
+
+.box.anime {
+    opacity: 0;
+    transform: translateX(100%);
+    transition: opacity 0.5s, transform 0.5s;
+  }
+  
+
+#vermelho {
+	background: rgb(237, 5, 5);
+    color: #ffffff;
+    font-size: 40px;
+    overflow: scroll;
+    text-align:center;
+	font-family: monaco;
+}
+
+#verde {
+	background: #12a901;
+    color: #ffffff;
+    font-size: 40px;
+    overflow: scroll;
+    text-align:center;
+	font-family: monaco;
+}
+
+#laranja{
+	background: #ff6a00;
+    color: #ffffff;
+    font-size: 40px;
+    overflow: scroll;
+    text-align:center;
+	font-family: monaco;
+}
+
+#amarelo{
+	background: #ffff00;
+    color: #000000;
+    font-size: 40px;
+    overflow: scroll;
+    text-align:center;
+	font-family: monaco;
+}
+
+#azul{
+	background: #003cff;
+    color: #ffffff;
+    font-size: 40px;
+    overflow: scroll;
+    text-align:center;
+	font-family: monaco;
+}
+
+#anil{
+	background: #1c0358;
+    color: #ffffff;
+    font-size: 40px;
+    overflow: scroll;
+    text-align:center;
+	font-family: monaco;
+}
+
+
+#violeta{
+	background: #8c00ff;
+    color: #ffffff;
+    font-size: 40px;
+    overflow: scroll;
+    text-align:center;
+	font-family: monaco;
+}
+section {
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 20px 0;
+	text-align: center;
+}
+
+
+footer {
+	text-align: center;
+	margin-bottom: 120px;
+    font-size: 45px;
+    text-align:center;
+	font-family: monaco;
+}
+
+
